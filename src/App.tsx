@@ -1,13 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Vanessa's Portfolio</h1>
+      <BrowserRouter>
+      <Routes>
+        <Route>
+        </Route>
+      </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
